@@ -16,3 +16,10 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+
+## CURL Commands to Tweet
+curl -X POST -d 'text=...' -H "Content-Type: application/x-www-form-urlencoded" http://127.0.0.1:8080/tweets
+
+## To verify in browser
+http://localhost:8080/tweets 

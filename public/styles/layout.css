@@ -17,9 +17,96 @@ html {
 body {
   color: #545149;
   background-color: #f4f1ec;
-  font-size: 24px;
+  font-size: 20px;
+  font-family: 'Source Sans Pro';
 }
 
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
+p {
+  font-family: Sans-Serif;
+  margin: 0%;
+}
+
+main {
+  background-color: #f4f1ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 5%;
+  width: 90%;
+}
+
+section {
+  width: inherit;
+}
+
+article {
+  border: #545149;
+  border-style: solid;
+  border-width: 4px;
+  text-align: justify;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+article header {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+article header .header-user{
+  display: flex;
+  justify-content: flex-start;
+  width: fit-content;
+}
+
+article header .header-replyingTo{
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+article .tweet-container-footer{
+  border-top: 4px solid #545149;
+  margin: 1em;
+}
+
+article footer {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 1em;
+}
+article .tweet-container-footer p {
+  font-size: small;
+}
+
+article header .footer-time{
+  display: flex;
+  justify-content: flex-start;
+  width: fit-content;
+}
+
+article header .footer-icon{
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+article:hover {
+  background-color:#f4f1ec;
+  box-shadow: 5px 5px 2px grey;
+
+}
+
+footer i {
+  color:#4056A1;
+}
+
+footer i:hover {
+  color: #E1AD01;
+}

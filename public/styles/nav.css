@@ -1,0 +1,26 @@
+nav {
+height: 120px;
+width: auto;
+background-color: #4056A1;
+color: #FFFFFF;
+font-family: 'Bungee', cursive;
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
+}
+
+span {
+  font-size: 4vw;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+ .nav-text {
+  Justify-content: flex-end;
+  font-family: 'Source Sans Pro';
+  margin-right: 1.5em;
+ }
+
+ nav i {
+  color: red;
+ }
