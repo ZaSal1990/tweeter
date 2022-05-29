@@ -1,16 +1,19 @@
-nav {
-height: 120px;
-width: auto;
-background-color: #4056A1;
-color: #FFFFFF;
-font-family: 'Bungee', cursive;
-display: flex;
-align-items: flex-end;
-justify-content: space-between;
+ nav {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 120px;
+  width: 100%;
+  color: #FFFFFF;
+  font-family: 'Bungee', cursive;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 span {
-  font-size: 4vw;
+  font-size: 3em;
   margin-left: 1.5em;
   margin-right: 1.5em;
 }
@@ -19,6 +22,8 @@ span {
   Justify-content: flex-end;
   font-family: 'Source Sans Pro';
   margin-right: 1.5em;
+  text-align: left;
+
  }
 
  nav i {

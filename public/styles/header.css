@@ -1,10 +1,15 @@
 .headerItems {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 400px;
-  width: 100%;
-  background-color:gainsboro;
-  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+  height: fit-content;
+
  }
+
+h2 {
+   font-size: 2rem;
+  
+ }
+
+ 

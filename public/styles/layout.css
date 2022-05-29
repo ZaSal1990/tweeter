@@ -15,25 +15,26 @@ html {
  */
 
 body {
-  color: #545149;
   background-color: #f4f1ec;
   font-size: 20px;
   font-family: 'Source Sans Pro';
+  word-wrap: break-word;
+  overflow:auto;
 }
 
 p {
   font-family: Sans-Serif;
+  text-align: justify;
   margin: 0%;
 }
 
 main {
   background-color: #f4f1ec;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
   flex-direction: column;
   margin: 5%;
-  width: 90%;
+  width: 90%; 
 }
 
 section {
@@ -47,8 +48,11 @@ article {
   text-align: justify;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 2%;
   padding-left: 2%;
   padding-right: 2%;
+  overflow: hidden;
+  
 }
 
 article header {
@@ -61,7 +65,17 @@ article header {
 article header .header-user{
   display: flex;
   justify-content: flex-start;
+  align-items: center;
+  text-align: left;
   width: fit-content;
+  white-space: nowrap;
+  
+}
+
+article header img {
+  width: 3rem;
+  height: 3rem;
+  margin: 2%;
 }
 
 article header .header-replyingTo{
@@ -76,7 +90,7 @@ article .tweet-container-footer{
 }
 
 article footer {
-  display: flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 1em;
@@ -100,7 +114,6 @@ article header .footer-icon{
 article:hover {
   background-color:#f4f1ec;
   box-shadow: 5px 5px 2px grey;
-
 }
 
 footer i {
@@ -109,4 +122,83 @@ footer i {
 
 footer i:hover {
   color: #E1AD01;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  nav {
+    background-color: #E1AD01 !important;
+  }
+
+  p {
+    font-size: 1em;
+    white-space: nowrap;
+    word-break: normal;
+  }
+
+  .headerItems {
+    align-items: flex-start;
+    margin-top: 70px;
+    padding-top: 5vh;
+    background-color:  #E1AD01 !important;
+    width: 100% !important; 
+  }
+
+  .headerItems img {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: auto;
+    height: auto;
+  }
+
+  main {
+    width: 90%;
+  }
+
+  section .tweet-container .new-tweet {
+    padding: 1vw;
+    align-items: center;
+  }
+
+  .allThatTweet {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (min-width: 769px) {
+
+main {
+     flex-direction: row;
+     margin-top: 120px;
+  }
+
+nav {
+    background-color:#4056A1 !important;
+  }
+
+.headerItems {
+  margin: 2%;
+  padding: 2% 2% 0 2%;
+  width: 40%;
+  background-color: #E1AD01;
+  }
+
+.headerItems img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.new-tweet {
+  margin-right: 5%;
+  margin-bottom: 2%;
+  padding: 0 2%;
+}
+
+.allThatTweet {
+  width: 100%;
+}
+
 }

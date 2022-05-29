@@ -1,8 +1,6 @@
 # Tweeter Project
 
-Tweeter is a simple, single-page Twitter clone.
-
-This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express back-end skills.
+Tweeter is a simple, single-page Twitter clone. It is capable of posting tweets on the server asynchronously while fetching and displaying all the tweets (past and present) in real-time. This app is customized for responsivness for a screen size of 768px (tablet) and 1024px (regular screen size). The input form has a built-in character counter for maximum of 140 while it also has protection against XSS injection threats and bad user input.
 
 ## Getting Started
 
