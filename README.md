@@ -10,9 +10,11 @@ Tweeter is a simple, single-page Twitter clone. It is capable of posting tweets 
 3. Start the web server using the `npm run local` command. The app will be served at <http://localhost:8080/>.
 4. Go to <http://localhost:8080/> in your browser.
 
+## Final Product
 
-
-
+!["Main Page"](https://github.com/ZaSal1990/tweeter/blob/fc72f0cf96038092eb2b75ed2fa3dab5438e2c51/public/images/main_page.png)
+!["Character Counter"](https://github.com/ZaSal1990/tweeter/blob/fc72f0cf96038092eb2b75ed2fa3dab5438e2c51/public/images/character_counter.png)
+!["Error Handling"](https://github.com/ZaSal1990/tweeter/blob/fc72f0cf96038092eb2b75ed2fa3dab5438e2c51/public/images/error_handling.png)
 
 ## Dependencies
 

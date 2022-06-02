@@ -16,7 +16,7 @@ $(() => {
       $('textarea').val(''); //clearing textarea after successful submission
       $('.counter').text(140); //resetting counter
     } else if (tweet === "" || tweet === null || tweet === undefined) { //data handling
-      let errorMessage = '* Invalid Data type';
+      let errorMessage = '* Cannot post empty tweet';
       $('.new-tweet-error').html(errorMessage);
       $('.new-tweet-error').slideDown();
     } else if (tweet.length > 140) {
