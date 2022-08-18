@@ -7,7 +7,7 @@
 $(() => {
   loadTweets(); //loads existing conten
   $('form').submit((event) => {
-    event.preventDefault();
+    event.preventDefault(); //prevents sul page refresh
     let tweet = $('textarea').val(); //accessing form input upon succession
     if (tweet && tweet.length < 140) {
       $('.new-tweet-error').slideUp(); //ensuring error is not visibile
